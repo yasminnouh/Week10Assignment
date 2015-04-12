@@ -8,13 +8,12 @@
 }
 
 .wholeQuote {
-  font-family: Helvetica,Arial,sans-serif;
-  font-size: 12px;
-  line-height: 18px;
-  margin: 0;
-  color: #3f4245;
-  background-color: #fff;
-    padding: 0 20px;
+  cfont-size: 1rem;
+  line-height: 1.25rem;
+  font-family: Georgia,serif;
+  font-weight: normal;
+  margin-bottom: 0.375rem;
+  color: #767676;
 }
 
 .moreInfo {
@@ -32,4 +31,4 @@
   font-weight: normal;
   margin-bottom: 0.375rem;
   color: #767676;
-}
+ }
