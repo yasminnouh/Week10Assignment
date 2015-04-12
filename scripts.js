@@ -1,4 +1,7 @@
-for (var i=0; i<guardianHeroinData.length; i++) {
+for (var i=0; i<guardianHeroinData.length; i++) { 
+	/*
+	 * Start at object 0 and for every object in the data, pull out the mainQuote and wholeQuote 
+	 */
 	var rowData = guardianHeroinData[i];
 	
 	var $template = $('<div class="quoteContainer">' +
