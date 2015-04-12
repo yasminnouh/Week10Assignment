@@ -2,11 +2,9 @@
  * http://www.theguardian.com/environment/ng-interactive/2015/apr/10/how-much-fossil-fuel-are-we-using-right-now*/ 
 
 .mainQuote {
-  font-size: 40px;
-  line-height: 46px;
-  margin: 0;
-  letter-spacing: -1px;
-  color: #000;
+  font-size: 1.5em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
 }
 
 .wholeQuote {
