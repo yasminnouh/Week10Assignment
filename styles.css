@@ -1,0 +1,35 @@
+/*Trying to mimic Al Jazeera America
+ * Below is a link to the page I was following:
+ * http://america.aljazeera.com/articles/2015/4/2/students-held-hostage-in-kenya-university-attack.html */ 
+
+.mainQuote {
+  font-size: 40px;
+  line-height: 46px;
+  margin: 0;
+  letter-spacing: -1px;
+  color: #000;
+}
+
+.wholeQuote {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  color: #3f4245;
+  background-color: #fff;
+    padding: 0 20px;
+}
+
+.moreInfo {
+	display: none;
+}
+
+.expanded .moreInfo { /*if it has class expanded and then there's something inside that div that has the class more Info, and apply display block*/ 
+	display: block;
+}
+
+.readMore {
+  color: red;
+  font-size: 1em;
+  margin: 1em;
+}
