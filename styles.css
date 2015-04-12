@@ -25,10 +25,7 @@
 }
 
 .readMore {
- font-size: 1rem;
-  line-height: 1.25rem;
-  font-family: Georgia,serif;
-  font-weight: normal;
-  margin-bottom: 0.375rem;
-  color: #767676;
+   color: #005689;
+  cursor: pointer;
+  text-decoration: none;
  }
