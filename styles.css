@@ -21,12 +21,15 @@
 	display: none;
 }
 
-.expanded .moreInfo { /*if it has class expanded and then there's something inside that div that has the class more Info, and apply display block*/ 
+.expanded .moreInfo {
 	display: block;
 }
 
 .readMore {
-  color: red;
-  font-size: 1em;
-  margin: 1em;
+ font-size: 1rem;
+  line-height: 1.25rem;
+  font-family: Georgia,serif;
+  font-weight: normal;
+  margin-bottom: 0.375rem;
+  color: #767676;
 }
