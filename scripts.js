@@ -5,25 +5,25 @@ for (var i=0; i<guardianHeroinData.length; i++) {
 	var rowData = guardianHeroinData[i];
 	
 	var $template = $('<div class="quoteContainer">' +
-				'<div class="mainQuote">'+rowData.mainQuote+'</div>' +
+				'<div class="mainQuote">'+rowData.mainQuote+'</div>' + //mainQuote and readMore are in siblings in a parent div
 				'<div class="readMore">Read More</div>'+
 				
 				'<div class="moreInfo">'+
-					'<div class="wholeQuote">'+rowData.wholeQuote+'</div>' +
+					'<div class="wholeQuote">'+rowData.wholeQuote+'</div>' + //wholeQuote is separate but still in the same parent div as mainQuote and readMore
 				'</div>'+
 			'</div>');
 			
-			$template.find(".readMore").on("click", toggleContent); 
+			$template.find(".readMore").on("click", toggleContent); //When you click the readMore button, display the content
 			
 			
 			
 			function toggleContent(e) {
 				$quoteContainer = $(this).parent();
 				
-				if ($quoteContainer.hasClass("expanded")) { //quoteContainer has class .expanded (you can see content), so remove content
+				if ($quoteContainer.hasClass("expanded")) { //if you can see the content in the quoteContainer (i.e. the mainQuote, readMore, and wholeQuote), then remove content
 					$quoteContainer.removeClass("expanded");
 					
-				} else { //quoteContainer does not have class expanded (you can't see content), so show content!
+				} else { //otherwise show content the content 
 					$quoteContainer.addClass("expanded");
 				}
 			}
